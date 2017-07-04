@@ -1,0 +1,19 @@
+/* index.html /*
+<div class="wrapper">
+
+  <img src="/Users/shaunhailey/documents/week-one-project/optimized/background-3.jpg" alt="endless possibilities bg">
+  <span>Endless Possibilities</span>
+  <img src="/Users/shaunhailey/documents/week-one-project/optimized/product-2.jpg" alt="sets bg">
+  <span>Sets</span>
+  <img src="/Users/shaunhailey/documents/week-one-project/optimized/product-3.jpg" alt="textures bg">
+  <span>Textures</span>
+  <img src="/Users/shaunhailey/documents/week-one-project/optimized/product-4.jpg" alt="tea time bg">
+  <span>Tea Time</span>
+  <img src="/Users/shaunhailey/documents/week-one-project/optimized/product-5.jpg" alt="jars bg">
+  <span>Jars and Containers</span>
+  <img src="/Users/shaunhailey/documents/week-one-project/optimized/product-6.jpg" alt="wasabi bg">
+  <span>Wasabi and Saki</span>
+  <img src="/Users/shaunhailey/documents/week-one-project/optimized/product-7.jpg" alt="sippin bg">
+  <span>Sippin' On Sunshine</span>
+
+</div> <!-- END .wrapper -->
