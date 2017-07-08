@@ -116,3 +116,33 @@ h4 {
   margin: 0;
   font: 28px Sans-Serif;
 }
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.aside > img {
+  width: 200px;
+  height: 200px;
+}
+
+.aboutaside {
+  float: right;
+  width: 200px;
+  height: 200px;
+
+}
+
+.FacBox {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Facilities {
+  display: flex;
+}
