@@ -20,6 +20,9 @@ Input Border Bottom (Focus): #967343 /*
 /*
 */
 
+body {
+  background-color: #F2F1E8;
+}
 
 h1, h2 {
   text-align: center;
@@ -28,37 +31,51 @@ h1, h2 {
 header {
   display: flex;
   align-items: center;
+  background-color: #FFFFFF;
 }
+
 
 .menu > ul {
   display: flex;
   justify-content: space-around;
+  width: 500%;
+  color: #2B2F26;
 }
 
-
-
-
-.Row1 {
-  margin: 1em;
-  display: flex;
-  flex-wrap: wrap;
+li > a {
+  color: #2B2F26;
+  text-decoration: none;
 }
 
-.Row2 {
-  margin: 1em;
+section {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .module1, .module2, .module3, .module4, .module5, .module6, .module7 > img {
   background-size: cover;
-  position: relative;
-  display: flex;
-  width: auto;
+  position: absolute;
+  width: inherit;
   height: auto;
+  display: flex;
+  overflow: hidden;
 
 }
 
+.module1 {
+  width: 60%;
+}
+
+.module1, .module2 {
+  width: 20%;
+}
+
+.module4, .module5, .module7 {
+  width: 20%;
+}
+
+.module6 {
+  width: 40%;
+}
 
 
 
@@ -74,4 +91,28 @@ h3 {
   margin: 0;
   font: 14px Sans-Serif;
 
+}
+
+/*ABOUT PAGE CSS/*
+*/
+.About {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.RTG {
+  margin: 10px;
+  width: 120%;
+  height: 100px;
+  background: url(/Users/shaunhailey/documents/week-one-project/optimized/background-3.jpg);
+  background-size: cover;
+  position: relative;
+
+}
+h4 {
+  padding: 40px 50px;
+  color: #F2F1E8;
+  margin: 0;
+  font: 28px Sans-Serif;
 }
