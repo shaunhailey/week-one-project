@@ -120,7 +120,6 @@ h4 {
 .aside {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
 }
 
 .aside > img {
@@ -140,9 +139,31 @@ h4 {
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+}
+
+.FacBox > p {
+  width: 50%;
 }
 
 .Facilities {
-  display: flex;
+text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+}
+
+th {
+  background: white;
+}
+
+tbody tr:nth-child(even) {
+  background: white;
 }
