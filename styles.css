@@ -12,7 +12,7 @@ Navigation Text (Hover): #CD5D67
 Navigation Text (Active) #968772
 Button Background: #968772
 Button Background (Hover): #967343
-Button Text: #F2F1E8
+Button Text: #968772
 Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343 /*
@@ -166,4 +166,57 @@ th {
 
 tbody tr:nth-child(even) {
   background: white;
+}
+
+/* NEWSLETTER /*
+*/
+
+body {
+  background: url(/Users/shaunhailey/documents/week-one-project/optimized/background-2.jpg);
+  background-size: cover;
+}
+
+.form {
+  background-color: white;
+  width: 600px;
+  margin-left: 290px;
+}
+
+.form > h1, h2 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+  display: block;
+  width: 600px;
+  background-color: white;
+}
+
+.form > h2 {
+  font-size: 16px;
+}
+
+.form > h1 {
+  font-size: 20px;
+}
+
+.label {
+  display: inline-block;
+  width: 90px;
+  text-align: left;
+  font-family: 'Merriweather', serif;
+}
+
+.input, textarea {
+  font-family: 'Merriweather', serif;
+}
+
+input {
+  border-style: hidden;
+}
+
+.button {
+  color: #968772;
+  display: flex;
+  justify-content: center;
+
 }
