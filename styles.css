@@ -22,6 +22,7 @@ Input Border Bottom (Focus): #967343 /*
 
 body {
   background-color: #F2F1E8;
+  margin: 0;
 }
 
 h1, h2 {
@@ -40,6 +41,7 @@ header {
   justify-content: space-around;
   width: 500%;
   color: #2B2F26;
+  list-style: none;
 }
 
 li > a {
@@ -47,38 +49,58 @@ li > a {
   text-decoration: none;
 }
 
-section {
-  display: flex;
+section .row {
+ display: flex;
 }
 
-.module1, .module2, .module3, .module4, .module5, .module6, .module7 > img {
+.module1,
+.module2,
+.module3,
+.module4,
+.module5,
+.module6,
+.module7 {
+  position: relative;
   background-size: cover;
-  position: absolute;
-  width: inherit;
-  height: auto;
-  display: flex;
-  overflow: hidden;
-
+  background-position: center;
+  height: 200px;
+  margin: 0.5em;
 }
 
 .module1 {
-  width: 60%;
+  background-image: url('optimized/product-1.jpg');
+  flex: 3;
 }
 
-.module1, .module2 {
-  width: 20%;
+.module2 {
+  background-image: url('optimized/product-2.jpg');
+  flex: 1;
 }
 
-.module4, .module5, .module7 {
-  width: 20%;
+.module3 {
+  background-image: url('optimized/product-3.jpg');
+  flex: 1;
+}
+
+.module4 {
+  background-image: url('optimized/product-4.jpg');
+  flex: 1;
+}
+
+.module5 {
+  background-image: url('optimized/product-5.jpg');
+  flex: 1;
 }
 
 .module6 {
-  width: 40%;
+  background-image: url('optimized/product-6.jpg');
+  flex: 2;
 }
 
-
-
+.module7 {
+  background-image: url('optimized/product-7.jpg');
+  flex: 1;
+}
 
 
 h3 {
@@ -90,11 +112,9 @@ h3 {
   color: #F2F1E8;
   margin: 0;
   font: 14px Sans-Serif;
-
 }
 
-/*ABOUT PAGE CSS/*
-*/
+/* ABOUT PAGE CSS */
 .About {
   text-align: center;
   padding-left: 10%;
